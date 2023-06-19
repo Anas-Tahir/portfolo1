@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anas Tahir &mdash; Software Developer || Portfolio</title>
+        <meta name="description" content="Anas Tahir">
+        <meta name="Keywords" content="Anas Tahir, Abubakr, Anas Abubakar Tahir Portfolio, Front-End Developer, Developer, Software Engineer, Nigeria, Plateau">
+
+        <meta property="og:site_name" content="Anas">
+        <meta property="og:title" content="Anas Tahir Portfolio">
+        <meta property="og:description" content="A frontend Developer with experience in building and maintaining responsive websites and applications.">
+        <meta property="og:image" itemprop="image" content="images/photo.jpg">
+        <meta property="og:type" content="website">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@Anas Tahir">
+        <meta name="twitter:creator" content="@Anas Tahir">
+        <meta name="twitter:title" content="Anas Tahir Portfolio">
+        <meta name="twitter:description" content="A frontend Developer with experience in building and maintaining responsive websites and applications.">
+        <meta name="twitter:image" content="images/photo.jpg">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" >
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400&display=swap" 
+              rel="stylesheet">
+       <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <div class="preloader flex">
+             <div class="loader"></div>
+        </div>
+        <div class="main-page">
+            <div class="flex nav-top">
+                <p class="logo">Anas<br>
+                    TAHIR</p>
+                <nav>
+                    <button class="menu" 
+                        id="hamburger" 
+                        aria-label="Toggle Menu" 
+                        aria-expanded="false" 
+                        aria-controls="mainNavLinks">
+                            <img src="./assets/menu.svg"  
+                                alt="" width="50" 
+                                role="presentation" />
+                    </button>
+                    <div id="mainNavLinks" 
+                        class="links" 
+                        aria-labelledby="mainNavHeading" 
+                        aria-live="polite">
+                        <button id="close-icon" aria-label="close menu">
+                            <img src="./assets/close-icon.svg"  
+                                alt="" width="45" 
+                                role="presentation" />
+                        </button>
+                        <h2 id="mainNavHeading" hidden>Main menu</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a></li>
+                            <li>
+                                <a href="#about">About</a></li>
+                            <li>
+                                <a href="#projects">Projects</a></li>
+                            <li>
+                                <a href="#contact">Contact</a></li>
+                            <li>
+                                <a href="# " target="_blank">Resume</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <header>
+                <img src="./assets/3d-shapes/Atom_1_-_Tetra0003.png" 
+                     alt="" class="shape shape1" width="50" role="presentation"/>
+                <img src="./assets/3d-shapes/Disc_Round_X2_-_Thick0006.png" 
+                    alt="" class="shape shape2" width="100" role="presentation"/>
+                <img src="./assets/3d-shapes/Sphere0000.png" 
+                    alt="" class="shape shape3" width="100" role="presentation"/>
+                <img src="./assets/3d-shapes/Cone_1_-_Tall0002.png" 
+                    alt="" class="shape shape4" width="100" role="presentation"/>
+                <img src="./assets/3d-shapes/Tube_Short_Y1_-_Extra_Thin0004.png" 
+                    alt="" class="shape shape5" width="150" role="presentation"/>
+                <div class="hero flex">
+                    <h1>SOFTWARE <br> DEVELOPER</h1>
+                </div>
+                <div class="social-media">
+                    <a href="https://web.facebook.com/anastahir.abubakar" target="_blank">
+                        <img src="./assets/icons/facebook.png" alt="link to facebook page" />
+                    </a>
+                    <a href="https://linkedin.com/in/anas-tahir-devlpr/" target="_blank">
+                        <img src="./assets/icons/linkedin.png" alt="link to linkedin page" />
+                    </a>
+                    <a href="https://twitter.com/AnasATahir" target="_blank">
+                        <img src="./assets/icons/twitter.png" alt="link to twitter page" />
+                    </a>
+                    <a href="https://github.com/Anas-Tahir" target="_blank">
+                        <img src="./assets/icons/github.png" alt="link to github page" />
+                    </a>  
+                </div>
+            </header>
+            <main>
+                <section aria-label="about me" id="about">
+                    <p>Welcome to my portfolio! I'm Anas Tahir, a highly skilled software developer with a passion for crafting innovative solutions. 
+                        With expertise in multiple programming languages and frameworks, I specialize in creating efficient and user-friendly software applications.</p>
+                        
+                    <p>Skills:<span id="skills"><br>
+                        ✓ Proficient in Java, Python, C++, and JavaScript.<br>
+                        ✓ Experienced with Django, Spring, and React frameworks.<br>
+                        ✓ Strong database management skills using MySQL, PostgreSQL, and MongoDB.<br>
+                        ✓ Familiarity with AWS and Azure cloud platforms.<br>
+                        ✓ Front-end development expertise in HTML5, CSS3, and responsive design.<br>
+                        ✓ Proficient in Git for version control and collaborative development.<br>
+                        ✓ Agile development methodologies and meeting tight deadlines.<br>
+                        ✓ Excellent communication and collaboration skills.</span>. .</p>
+                </section>
+    
+                <section aria-labelledby="selected-projects" id="projects">
+                    <h2 id="selected-projects">SELECTED PROJECTS</h2>
+                    <div class="grid-container">
+                        <div>
+                           <div class="bg2 colored-bg">
+                                <img src="./assets/projects/audiophile.png" alt="" role="presentation"/>
+                            </div>
+                            <h3 class="project-name">Audiophile E-commerce</h3>
+                            <p class="project-info">A multi-page website for a company that deal with
+                                portable audio equipment.</p>
+                            <a  class="project-link" 
+                                href="https://audiophile11.#netlify.app/" 
+                                target="_blank"
+                                aria-label="Link to Audiophile ecommerce website">
+                                Live Site Url
+                            </a>
+                            <div>
+                                <p class="stack">
+                                    <span>VueJs</span>
+                                    <span>Vue Router</span>
+                                    <span>VueX</span>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="bg4 colored-bg">
+                                <img src="./assets/projects/ARCH11.png" alt="" />
+                            </div>
+                            <h3 class="project-name">Arch Studio</h3>
+                            <p class="project-info">A multi-page website for a company that speciliazes 
+                                in creating urban design and structures.</p>
+                            <a  class="project-link" 
+                                href="https://arch-studio-#site.netlify.app/" 
+                                target="_blank"
+                                aria-label="Link to Arch Studio website">
+                                Live Site Url
+                            </a>
+                            <div>
+                                <p class="stack">
+                                    <span>Vue</span>
+                                    <span>Vue Router</span>
+                                    <span>Bootstrap</span>
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div>
+                            <div class="bg1 colored-bg">
+                                <img src="./assets/projects/grandeur.png" alt="" />
+                            </div>
+                            <h3 class="project-name">Grandeur Tailors</h3>
+                            <p class="project-info">A multi-page website for a fashion design brand.</p>
+                            <a class="project-link" 
+                               href="http://grandeurtailo#rs.com/" 
+                               target="_blank"
+                               aria-label="Link to Granduer tailors website">
+                               Live Site Url
+                            </a>
+                            <div>
+                                <p class="stack">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div>
+                            <div class="bg7 colored-bg">
+                                <img src="./assets/projects/CEEPLUS11.png" alt="" />
+                            </div>
+                            <h3 class="project-name">CEEPLUS Media</h3>
+                            <p class="project-info">A multi-page website for a visual media brand</p>
+                            <a class="project-link"
+                               href="https://ceeplus-media-v2#.netlify.app/" 
+                               target="_blank"
+                               aria-label="Link to CEEPLUS media website">
+                               Live Site Url
+                            </a>
+                            <div>
+                                <p class="stack">
+                                    <span>HTML</span>
+                                    <span>CSS/Boostrap</span>
+                                    <span>JavaScript</span>
+                                    <span>GSAP/AOS </span>
+                                </p>
+                            </div>
+                        </div>
+                       
+                        <div>
+                            <div class="bg7 colored-bg">
+                                <img src="./assets/homepage-codepen.png" alt="" />
+                            </div>
+                            <h3 class="project-name">Codepen</h3>
+                            <p class="project-info">To view more project Click the Url!.</p>
+                            <a class="project-link"
+                            href="https://codepen.io/anas-a-tahir/" 
+                               target="_blank"
+                               aria-label="Link to the yannalrestaurant landing page">
+                               Live Site Url
+                            </a>
+                            <div>
+                                <p class="stack">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </p>
+                                
+                            </div>
+                        </div>
+    
+                        <div>
+                            <div class="bg3 colored-bg">
+                                <img src="./assets/github.png" alt="" />
+                            </div>
+                            <h3 class="project-name">Github Repository</h3>
+                            <p class="project-info">To view more project Click the Url!.</p>
+                            <a class="project-link"
+                            href="https://github.com/Anas-Tahir/" 
+                               target="_blank"
+                               aria-label="Link to the mistrium landing page">
+                                 Live Site Url
+                            </a>
+                            <div>
+                                <p class="stack">
+                                    <span>Front-ends</span>
+                                    <span>Back-ends</span>
+                                    <span>Full-Stacks</span>
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+<!----
+                    <section aria-labelledby="MORE-projects" id="projects">
+                    <h2 id="selected-projects">MORE PROJECTS</h2>
+                    <div class="grid-container">
+                    <div class="see-more-wrap">
+                        <div>
+                            <a href="https://github.com/Anas-Tahir" 
+                            target="_blank" 
+                            class="see-more">Github</a>
+                        </div>
+                        
+                       <div> <a href="https://codepen.io/anas-a-tahir" 
+                        target="_blank" 
+                        class="see-more">Codepen</a></div>
+                       
+                       
+                    <section>
+                       <div class="bg3 colored-bg">
+                        <img src="./assets/codepen.png" alt="" />
+                    </div>
+                    <h3 class="project-name">Codepen</h3>
+                    <p class="project-info">A landing page for a interior shop.</p>
+                    <a class="project-link"
+                       href="https://codepen.io/anas-a-tahir/" 
+                       target="_blank"
+                       aria-label="Link to the mistrium landing page">
+                      <p>Click me!<br> My-works in Codepen</p>
+                    </a>
+                   <div>
+                        <p class="stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </p>
+                    </div>
+                    </div>
+                </section>
+<section>
+                    <div class="bg6 colored-bg">
+                        <img src="./assets/github.png" alt=""   />
+                    </div>
+                    <h3 class="project-name">Codepen</h3>
+                    <p class="project-info">A landing page for a interior shop.</p>
+                    <a class="project-link"
+                       href="https://github.com/Anas-Tahir/" 
+                       target="_blank"
+                       aria-label="Link to the mistrium landing page">
+                       <p>Click me! <br>Github Repository</p>
+                    </a>
+                    <div>
+                        <p class="stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </p>
+                    </div>-->
+                       
+                    </div>
+                </section>
+
+            
+    
+                <div id="about2">
+                    <p class="about2">While I'm not coding, I engage in writing technical content on
+                        <span id="hashnode"><a href="https://anastahir.hashnode.dev/" target="_blank">hashnode.</a></span> 
+                        Additionally, 
+                        I allocate some of my time to watching educational content on YouTube.
+                        <!-- or indulging in relaxation by enjoying shows on Netflix with my family.-->
+                    </p>
+                </div>
+            </main>
+            <footer>
+                <div id="contact">
+                    <h2>GET IN TOUCH</h2>
+                    <div class="footer-inner">
+                        <div class="mail-wrap">
+                            <p class="contact">Need a developer? Or would like to say hi. Feel free!
+                                <a href="mailto:anastahirdevlpr@gmail.com" target="_blank" class="mail">hello@AnasTahir</a>
+                            </p>
+                        </div>
+                        <div class="socials">
+                            <a href="https://linkedin.com/in/anas-tahir-devlpr/" target="_blank">LINKEDIN</a>
+                            <a href="https://twitter.com/AnasATahir1" target="_blank">TWITTER</a>
+                            <a href="https://web.facebook.com/anas#tahir.abubakar" target="_blank">FACEBOOK</a>
+                            <a href="https://github.com/Anas-Tahir" target="_blank">GITHUB</a>
+                        </div> 
+                    </div>
+                    <p class="copyright">Copyright &copy;<span id="date">2023</span> Anas Tahir</p>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
